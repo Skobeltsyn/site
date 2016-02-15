@@ -28,82 +28,47 @@
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="books.html">Books</a></li>
-            <li class="active"><a href="#">PLs</a></li>
+            <li><a href="pls.html">PLs</a></li>
             <li><a href="work.html">Work</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li class=""><a href="technologies.html">Technologies</a></li>
+            <li class="active"><a href="#">Technologies</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
     <div class="container">
-        <h2>List of programming languages I use</h2>
-        <table class="table table-striped">
-          <tr>
-            <th>Language</th>
-            <th>Easy to deploy (0-10[very easy])</th>
-            <th>Applicability (0[have to invent]-10[everywhere])</th>
-            <th>Speed of development (0-10[fast])</th>
-            <th>Runtime speed (0-10[fast])</th>
-            <th>Hardcore level(0-10)</th>
-            <th>Like</th>
-          </tr>
-          <tr>
-            <td>C</td>
-            <td>10</td>
-            <td>5</td>
-            <td>4</td>
-            <td>9</td>
-            <td>11</td>
-            <td>10</td>
-          </tr>
-          <tr>
-            <td>CUDA C</td>
-            <td>3</td>
-            <td>4</td>
-            <td>2</td>
-            <td>12</td>
-            <td>14</td>
-            <td>10</td>
-          </tr>
-          <tr>
-            <td>Java</td>
-            <td>7</td>
-            <td>10</td>
-            <td>7</td>
-            <td>5</td>
-            <td>7</td>
-            <td>10</td>
-          </tr>
-          <tr>
-            <td>Ruby</td>
-            <td>6</td>
-            <td>8</td>
-            <td>9</td>
-            <td>3</td>
-            <td>2</td>
-            <td>10</td>
-          </tr>
-          <tr>
-            <td>Python</td>
-            <td>9</td>
-            <td>9</td>
-            <td>7</td>
-            <td>4</td>
-            <td>3</td>
-            <td>8</td>
-          </tr>
-          <tr>
-            <td>Bash</td>
-            <td>10</td>
-            <td>4</td>
-            <td>1</td>
-            <td>1</td>
-            <td>8</td>
-            <td>5</td>
-          </tr>
-    </table>
+      <h2>List of technologies I use</h2>
+      <table>
+        <tr>
+          <td>
+           <h3>NVIDIA CUDA <a href="https://developer.nvidia.com/cuda-zone">link</a></h3>
+           <p>This is one of the cheapest and powerful computation platforms for making programs run significantly faster. The main idea is that grphics processor (GPU) has more of computational kernels than computer CPU.</p>
+           <p><strong>Pros: </strong>Depending on algorithms, used GPUs, cooling sytem (no joke!) speedup of computations can vary from 10x to 1000x.</p>
+           <p><strong>Cons: </strong>High correlation of computation speed and price of GPU, not so easy to make programs, GPUs can burn out (on macbook - definitely will), runs only NVIDIA cards, many troubles with drivers on *nix, hard to test.</p>
+           <p><strong>Resume: </strong>Despite all cons, I like this thing: you can increase speed of application running using only refactoring (neither very difficult nor easy to make btw) and putting nice gaming videocard in computational system. If you like burning machines for grinding huge amounts of data, this is for you.</p>
+           </td>
+        </tr>
+        <tr>
+          <td>
+           <h3>Java OpenGL (JOGL) <a href="http://jogamp.org/jogl/www/">link</a></h3>
+           <p>Everybody know that 3D graphics is connected mostly to 2 graphical API platforms: Direct3d or OpenGL. OpenGL is free and can be used everywhere, so I prefer it. OpenGL is used mostly in pair with C++ or C, but there are a lot of business or scientific applications written in java, and sometimes there is trouble in real time visualization of large amounts of data, so using of OpenGL is the most easy and obvious solution. For using OpenGL with java I prefer JOGL binding. JOGL is cool.</p>
+           <p><strong>Pros: </strong>OpenGL in java apps!</p>
+           <p><strong>Cons: </strong>Quite buggy, dependable on hardware, drivers and operating system and requires understanding of OpenGL to make app crossplatform and help app to survive in uncontrollable environment.</p>
+           <p><strong>Resume: </strong>Very nice solution for making 3d apps.</p>
+           </td>
+        </tr>
+        <tr>
+          <td>
+           <h3>WebGL using three.js <a href="http://threejs.org">link</a></h3>
+           <p>There is a demand for high perfomance ultra nice looking web sites. One of solutions is to use canvas, but sometimes pure canvas works slowly and can't give enough functionality - that is a ring to use WebGL. But there are a huge amount of functions - and that is a ring to use framework. One I prefer is three.js because of speed and easiness to understand: you can use it even without deep understanding of OpenGL. Fast and reliable,</p>
+           <p><strong>Pros: </strong>3d app in web! Easy, fast to develop.</p>
+           <p><strong>Cons: </strong>Quite buggy, dependable on build of browser, hardware, drivers and operating system. Eats a lot of RAM and heats CPU and GPU.</p>
+           <p><strong>Resume: </strong>Web sites looks very beautiful, technology is fast growing. Go and use it now.</p>
+           </td>
+        </tr>
+      </table>
+
     </div>
 
 
